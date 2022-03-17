@@ -21,6 +21,10 @@
        * {
            font-family: Georgia, 'Times New Roman', Times, serif;
        }
+
+       * {
+           box-sizing: border-box;
+       }
        
         .background-for-photo {
             background-color: #ffb500; box-sizing: content-box;
@@ -43,8 +47,12 @@
 
         }
 
-        .paragraphs {
+        .header-font {
            font-size: 28px;
+       }
+
+       main p {
+           font-size: 22px;
        }
 
        h1 {
@@ -67,13 +75,16 @@
            margin: auto;
        }
 
+       nav .first-list {
+           max-width:fit-content;
+       }
      
 
     </style>
 </head>
 
 <body>
-    <header class="paragraphs">
+    <header class="header-font">
         <h1>My Goals for 2022</h1>
         <hr style="margin-bottom: 80px;">
 
@@ -81,16 +92,17 @@
             
             
             <div class="background-for-photo">
-                <img class="panther"; src="https://a-z-animals.com/media/2021/10/black-panther-panthera-pardus-adult-snarling-in-defensive-posture-picture-id1256653107-1024x535.jpg">
+                <img class="panther"; src="https://a-z-animals.com/media/2021/10/black-panther-panthera-pardus-adult-snarling-in-defensive-posture-picture-id1256653107-1024x535.jpg"
+                alt="Roaring Panther">
             </div>
 
-            <ul>
-                <a href=""><li style="text-align: left;">Introduction</li></a><br>            
-                <a href=""><li style="text-align: left;">My primary goal</li></a><br>
-                <a href=""><li style="text-align: left;">My secondary goal</li></a><br>          
-                <a href=""><li style="text-align: left;">My tertiary goal</li></a><br>
-                <a href=""><li style="text-align: left;">My fourth goal</li></a><br>
-                <a href=""><li style="text-align: left;">Other goals</li></a><br>
+            <ul class="first-list">
+                <a href="#.Introduction"><li>Introduction</li></a><br>            
+                <a href=""><li>My primary goal</li></a><br>
+                <a href=""><li>My secondary goal</li></a><br>          
+                <a href=""><li>My tertiary goal</li></a><br>
+                <a href=""><li>My fourth goal</li></a><br>
+                <a href=""><li>Other goals</li></a><br>
             </ul>
             
             <hr style="margin-top: 80px;">
@@ -101,18 +113,48 @@
 
     <main>  
           
+        <div> 
+            <p>
+               Become competent with HTML, CSS, and Javascript. Get a job by the end of the year.
+            </p>
+
+        </div>
     
-        <p >
-            <ul>
-                <li style="text-align: left;">Become competent with HTML, CSS, and Javascript. Get a job by the end of the year.</li>
-                <li style="text-align: center;">Improve my physique aesthetically and functionally</li>
-                <li style="text-align: right;">Make some money to spend on going out, and on things I like</li>
-            </ul>
-        </p>
+        <div>
+            <p>
+                Improve my physique aesthetically and functionally.
+            </p>
+        </div>
+        
+        <div>
+            <p>
+                Make some money to spend on going out, and on things I like.
+            </p>         
+        </div>
 
+        <div>
+            <p>
+                
+            </p>         
+        </div>
 
+        <div>
+            <p>
+                
+            </p>         
+        </div>
 
+        <div>
+            <p>
+
+            </p>         
+        </div>
+
+        
     </main>
+
+
+    <footer></footer>
 </body>
 
 
