@@ -1,0 +1,88 @@
+* {
+    background-color: #595CAF;
+}
+
+* {
+    color: #FFFFFF;
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+ .background-for-photo {
+     background-color: #ffb500;
+     height: 60%;
+     width: 500px;
+     position: absolute;
+     display: block;
+     float: right;
+     margin: 0 50% auto;
+     border: 45px;
+     border-style: solid;
+     border-color: #ffb500;
+  }
+
+ .panther {
+     width: 40%;
+     height: auto;
+     position: right absolute; 
+     float: right;
+     
+
+ }
+
+ .header-font {
+    font-size: 20px;
+}
+
+main p {
+    font-size: 22px;
+}
+
+h1 {
+ background-color: #6e033e;
+ padding: 1cm; 
+ text-align: center; 
+ font-size: 55px;
+ outline: 3px solid #FFFFFF;
+ margin: 0;
+ display: block;
+ height: auto;
+ width: auto;
+
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+header {
+    width: 90%;
+    margin: auto;
+}  
+
+.first-list {
+    max-width:fit-content;
+    display: block;
+}
+
+.goaldiv {
+ padding: 15px;
+ margin: 5px 25px 25px;
+}
+
+#intro-header,
+#first-header,
+#second-header,
+#third-header,
+#fourth-header,
+#other-header        {
+    padding: 8px;
+}
