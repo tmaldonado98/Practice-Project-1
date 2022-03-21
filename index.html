@@ -25,30 +25,32 @@
        * {
            box-sizing: border-box;
        }
-       
+
+
         .background-for-photo {
-            background-color: #ffb500; box-sizing: content-box;
+            background-color: #ffb500;
+            height: 60%;
             width: 500px;
-            height: 50%;
             position: absolute;
+            display: block;
             float: right;
-            margin-left: 535px;
+            margin: 0 50% auto;
             border: 45px;
             border-style: solid;
             border-color: #ffb500;
          }
 
         .panther {
-            width: 115%;
-            height: 100%;
-            margin-left: 50px;
-            position: absolute; 
+            width: 40%;
+            height: auto;
+            position: right absolute; 
             float: right;
+            
 
         }
 
         .header-font {
-           font-size: 28px;
+           font-size: 20px;
        }
 
        main p {
@@ -62,6 +64,9 @@
         font-size: 55px;
         outline: 3px solid #FFFFFF;
         margin: 0;
+        display: block;
+        height: auto;
+        width: auto;
 
        }
 
@@ -73,10 +78,11 @@
        header {
            width: 90%;
            margin: auto;
-       }
+       }  
 
-       nav .first-list {
+       .first-list {
            max-width:fit-content;
+           display: block;
        }
      
 
@@ -86,25 +92,28 @@
 <body>
     <header class="header-font">
         <h1>My Goals for 2022</h1>
-        <hr style="margin-bottom: 80px;">
+        <hr style="margin-bottom: 80px">
 
-        <nav>
+        <nav">
             
             
-            <div class="background-for-photo">
-                <img class="panther"; src="https://a-z-animals.com/media/2021/10/black-panther-panthera-pardus-adult-snarling-in-defensive-posture-picture-id1256653107-1024x535.jpg"
+            <img class="panther"; src="https://a-z-animals.com/media/2021/10/black-panther-panthera-pardus-adult-snarling-in-defensive-posture-picture-id1256653107-1024x535.jpg"
                 alt="Roaring Panther">
-            </div>
-
-            <ul class="first-list">
-                <a href="#.Introduction"><li>Introduction</li></a><br>            
-                <a href=""><li>My primary goal</li></a><br>
-                <a href=""><li>My secondary goal</li></a><br>          
-                <a href=""><li>My tertiary goal</li></a><br>
-                <a href=""><li>My fourth goal</li></a><br>
-                <a href=""><li>Other goals</li></a><br>
-            </ul>
+            <div class="background-for-photo"></div>
             
+            <section class="nav-section">
+                <a name="BackToTop"></a>
+                <ul class="first-list">
+                    <a href="#Introduction"><li>Introduction</li></a><br>            
+                    <a href="#PrimaryGoal"><li>My primary goal</li></a><br>
+                    <a href="#SecondaryGoal"><li>My secondary goal</li></a><br>          
+                    <a href="#TertiaryGoal"><li>My tertiary goal</li></a><br>
+                    <a href="#FourthGoal"><li>My fourth goal</li></a><br>
+                    <a href="#OtherGoals"><li>Other goals</li></a><br>
+                </ul>
+
+            </section>
+                        
             <hr style="margin-top: 80px;">
         </nav>
 
@@ -113,6 +122,14 @@
 
     <main>  
           
+        <div>
+            <h4>Introduction</h4>
+            <a name="Introduction"></a>
+            <p>
+                afsdfsda
+            </p>         
+        </div>
+
         <div> 
             <p>
                Become competent with HTML, CSS, and Javascript. Get a job by the end of the year.
