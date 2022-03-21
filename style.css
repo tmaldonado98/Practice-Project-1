@@ -75,7 +75,8 @@ header {
 
 .goaldiv {
  padding: 15px;
- margin: 5px 25px 25px;
+ margin: 0px 25px 25px;
+ background-color: black;
 }
 
 #intro-header,
@@ -85,4 +86,18 @@ header {
 #fourth-header,
 #other-header        {
     padding: 8px;
+    background-color: #6e033e;
+    font-size: 30px;
+    border: solid;
+    border-style: #FFFFFF;
+    border-width: 5px;
+    width:fit-content;
+}
+
+main section {
+    background-color: black;
+}
+
+main section div p {
+    background-color: black;
 }
