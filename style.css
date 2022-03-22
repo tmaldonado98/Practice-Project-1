@@ -1,5 +1,5 @@
-* {
-    background-color: #595CAF;
+body {
+    background-color: black;
 }
 
 * {
@@ -14,28 +14,44 @@
     box-sizing: border-box;
 }
 
+.nav-section {
+    background-color: black;
+}
 
- .background-for-photo {
+nav {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ .first-list {
+    flex: 1;
+    -ms-flex-align: start;
+    float: flex-start;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.background-for-photo {
+     flex: 1;
      background-color: #ffb500;
-     height: 60%;
      width: 500px;
-     position: absolute;
-     display: block;
-     float: right;
-     margin: 0 50% auto;
+     margin-left: 0%;
      border: 45px;
      border-style: solid;
      border-color: #ffb500;
   }
 
  .panther {
-     width: 40%;
+     width: 115%;
      height: auto;
-     position: right absolute; 
+     position: right absolute;
+     margin-right: 85px; 
      float: right;
-     
-
  }
+
+
 
  .header-font {
     font-size: 20px;
@@ -68,14 +84,10 @@ header {
     margin: auto;
 }  
 
-.first-list {
-    max-width:fit-content;
-    display: block;
-}
 
 .goaldiv {
  padding: 15px;
- margin: 0px 25px 25px;
+ margin: 0px 25px;
  background-color: black;
 }
 
@@ -94,10 +106,23 @@ header {
     width:fit-content;
 }
 
-main section {
-    background-color: black;
+#first-header {
+    margin-left: 12%;
 }
 
-main section div p {
-    background-color: black;
+#second-header {
+    margin-left: 22%;
+}
+
+#third-header {
+    margin-left: 34%;
+}
+
+#fourth-header {
+    margin-left: 45%;
+}
+
+
+#other-header {
+    margin-left: 57%;
 }
